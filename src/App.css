@@ -1,0 +1,100 @@
+/* Estilos adicionales para los componentes */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.app-header {
+  background-color: #1a1a1a;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid #3a3a3a;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #646cff;
+}
+
+.app-main {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.5rem;
+}
+
+.main-menu {
+  background-color: #1a1a1a;
+  padding: 0.5rem 1.5rem;
+}
+
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.main-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.main-menu a:hover, .main-menu a.active {
+  color: #646cff;
+}
+
+
+.app-footer {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #888;
+  border-top: 1px solid #3a3a3a;
+}
+
+.song-list h2 {
+  color: #e0e0e0;
+  border-bottom: 2px solid #646cff;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.song-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.song-item {
+  background-color: #2f2f2f;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.song-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.song-item h3 {
+  margin: 0 0 0.25rem 0;
+  color: #fff;
+}
+
+.song-item p {
+  margin: 0;
+  color: #aaa;
+  font-style: italic;
+}
